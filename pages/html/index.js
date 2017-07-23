@@ -67,6 +67,21 @@ Page({
             mony:198
         })
     },
+    btnmony:function(){
+        wx.requestPayment({
+            'timeStamp': '',
+            'nonceStr': '',
+            'package': '',
+            'signType': 'MD5',
+            'paySign': '',
+            'success': function (res) {
+                console.log("成功")
+            },
+            'fail': function (res) {
+                console.log("用户不干了。。。")
+            }
+        })
+    },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

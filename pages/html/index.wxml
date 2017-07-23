@@ -74,7 +74,7 @@
         <view class="foot_left">
             总价<text class="colred">${{mony}}</text>
         </view>
-        <view class="foot_right">
+        <view bindtap="btnmony" class="foot_right">
             去支付
         </view>
     </view>

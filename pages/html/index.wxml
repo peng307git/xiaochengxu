@@ -1,0 +1,81 @@
+<!--pages/html/index.wxml-->
+<view class="body">
+    <view class="header">
+        <view class="imgbox">
+            <image  src="../../images/1.png"></image>
+        </view>
+        <view class="head_text">
+            <view class="text_1">huiyuanhaoma666</view>
+            <view class="text_2">你的会员还有<text>6</text>天过期</view>
+        </view>
+    </view>
+    <view class="contain">
+        <view class="con_1">
+            <view class="con_1_1">
+                选择优惠套餐
+            </view>
+            <view class="con_1_2">
+                会员适应购买期<text>5折起</text>>
+            </view>
+            <view bindtap="click1" class="con_text con_title {{_num1}}">
+                <view class="title_left">
+                    <view class="text_1">连续包月</view>
+                    <view class="text_2">自动续费，可随时取消</view>   
+                </view>
+                <view class="title_right">
+                    <text>$18</text>
+                    $8
+                </view>
+            </view>
+            <view bindtap="click2" class="con_text con_title {{_num2}}">
+                <view class="title_left left_text">
+                    一个月
+                </view>
+                <view class="title_right">
+                    <text>$18</text>
+                    $18
+                </view>
+            </view>
+            <view bindtap="click3" class="con_text con_title {{_num3}}">
+                <view class="title_left left_text">
+                    三个月
+                </view>
+                <view class="title_right">
+                    <text>$18</text>
+                    $28
+                </view>
+            </view>
+            <view bindtap="click4" class="con_text con_title {{_num4}}">
+                <view class="title_left">
+                    <view class="text_1">12个月</view>
+                    <view class="text_2">购买<span class="colred">再送10元</span>无门槛红包</view>   
+                </view>
+                <view class="title_right">
+                    <text >$1998</text>
+                    $198
+                </view>
+            </view>
+        </view>
+        
+    </view>
+    <view class="content">
+            <view class="con">
+                使用兑换码兑换会员
+                <image src="../../images/next.png"></image>
+            </view>
+    </view>
+     <view class="content">
+            <view class="con">
+                使用兑换码兑换会员
+            </view>
+    </view>
+    <view class="footbot"></view>
+    <view class="footer">
+        <view class="foot_left">
+            总价<text class="colred">${{mony}}</text>
+        </view>
+        <view class="foot_right">
+            去支付
+        </view>
+    </view>
+</view>

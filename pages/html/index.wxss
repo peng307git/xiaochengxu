@@ -1,0 +1,150 @@
+/* pages/html/index.wxss */
+.body{
+      background: ghostwhite;  
+}
+.header{
+    width: 100%;
+    height: 120rpx;
+    line-height: 100rpx;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    top: 0;
+    display: flex;
+}
+.contain{
+    padding: 20rpx 20rpx;
+    padding-bottom: 20rpx;
+    padding-right: 20rpx;
+    background: #fff;
+}
+.footer{
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 2;
+}
+.imgbox{
+    width: 20%;
+}
+image{
+    width: 60rpx;
+    height: 60rpx;
+    margin-top:20rpx;
+    margin-left: 28rpx;
+    
+}
+.header .head_text{
+    width: 80%;
+    height: 80rpx;
+    line-height: 40rpx;
+    margin-top: 20rpx;
+}
+.text_1{
+    font-size: 14px;
+}
+.text_2{
+    font-size: 12px;
+}
+.contain .con_1{
+    padding-top: 18rpx;
+    background: #fff;
+}
+.con_1 .con_1_1{
+    height: 40rpx;
+    font-size: 38rpx;
+}
+.con_1 .con_1_2{
+    height: 30rpx;
+    font-size: 18rpx;
+    padding: 10rpx 0;
+}
+.con_1 .con_text{
+    height: 120rpx;
+    
+    margin-bottom: 20rpx;
+    padding: 20rpx;
+}
+.bc_red{
+    border: 1px solid red;
+}
+.bc_ff{
+    border: 1px solid gainsboro;
+}
+.con_text>view{
+    float: left;
+}
+.title_left{
+    width: 70%;
+}
+.title_right{
+    width: 30%;
+    text-align: right;
+    line-height: 120rpx;
+    color: red;
+    font-size: 40rpx;
+}
+.title_right text{
+    color: gainsboro;
+    font-size: 30rpx;
+    position: relative;
+    bottom:4rpx;
+    right: 4rpx;
+    text-decoration:line-through;
+}
+.text_1{
+    font-size: 40rpx;
+    line-height: 40rpx;
+    padding-top: 20rpx;
+}
+.title_left .text_2{
+    font-size: 20rpx;
+    line-height: 40rpx;
+    padding-top: 10rpx;
+}
+.con_text .left_text{
+    line-height: 120rpx;
+}
+
+.content{
+    background: #fff;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    padding: 0 20rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    font-size: 26rpx;
+}
+.footbot{
+    padding-bottom: 100rpx;
+}
+.con{
+    position: relative;
+}
+.content image{
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    right: 20rpx;
+    top: 20rpx;
+}
+.foot_left{
+    width: 70%;
+    background: #fff;
+    color: #000;
+    opacity: 1;
+    padding-left: 20rpx;
+}
+.foot_right{
+    width: 30%;
+    background: sandybrown;
+    opacity: 1;
+    color: #000;
+    text-align: center;
+}

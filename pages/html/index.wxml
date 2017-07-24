@@ -5,7 +5,9 @@
             <image  src="../../images/1.png"></image>
         </view>
         <view class="head_text">
-            <view class="text_1">huiyuanhaoma666</view>
+            <view class="text_1">huiyuanhaoma666
+                <text>(150****7553)</text>
+            </view>
             <view class="text_2">你的会员还有<text>6</text>天过期</view>
         </view>
     </view>
@@ -26,6 +28,13 @@
                     <text>$18</text>
                     $8
                 </view>
+
+                <view wx:if="{{ _num1 == 'bc_red' }}" class="beijing"></view>
+                <view wx:if="{{ _num1 == 'bc_red' }}" class="ok">
+                        <span class="ok_1"></span>
+                        <span class="ok_2"></span>
+                </view>
+                
             </view>
             <view bindtap="click2" class="con_text con_title {{_num2}}">
                 <view class="title_left left_text">
@@ -34,6 +43,11 @@
                 <view class="title_right">
                     <text>$18</text>
                     $18
+                </view>
+                <view wx:if="{{ _num2 == 'bc_red' }}" class="beijing"></view>
+                <view wx:if="{{ _num2 == 'bc_red' }}" class="ok">
+                        <span class="ok_1"></span>
+                        <span class="ok_2"></span>
                 </view>
             </view>
             <view bindtap="click3" class="con_text con_title {{_num3}}">
@@ -44,6 +58,11 @@
                     <text>$18</text>
                     $28
                 </view>
+                <view wx:if="{{ _num3 == 'bc_red' }}" class="beijing"></view>
+                <view wx:if="{{ _num3 == 'bc_red' }}" class="ok">
+                        <span class="ok_1"></span>
+                        <span class="ok_2"></span>
+                </view>
             </view>
             <view bindtap="click4" class="con_text con_title {{_num4}}">
                 <view class="title_left">
@@ -53,6 +72,11 @@
                 <view class="title_right">
                     <text >$1998</text>
                     $198
+                </view>
+                <view wx:if="{{ _num4 == 'bc_red' }}" class="beijing"></view>
+                <view wx:if="{{ _num4 == 'bc_red' }}" class="ok">
+                        <span class="ok_1"></span>
+                        <span class="ok_2"></span>
                 </view>
             </view>
         </view>

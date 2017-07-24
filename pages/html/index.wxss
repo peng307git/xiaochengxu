@@ -1,14 +1,14 @@
 /* pages/html/index.wxss */
 .body{
-      background: ghostwhite;  
+      background: #F2F2F2;  
 }
 .header{
     width: 100%;
     height: 120rpx;
     line-height: 100rpx;
-    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     top: 0;
+    background: #666;
     display: flex;
 }
 .contain{
@@ -67,12 +67,14 @@ image{
 }
 .con_1 .con_text{
     height: 120rpx;
-    
+    position: relative;
     margin-bottom: 20rpx;
     padding: 20rpx;
+    overflow: hidden;
 }
 .bc_red{
     border: 1px solid red;
+    background-color: rgb(255,252,234);
 }
 .bc_ff{
     border: 1px solid gainsboro;
@@ -82,6 +84,54 @@ image{
 }
 .title_left{
     width: 70%;
+}
+.beijing{
+     width:0; 
+    height:0; 
+    border-left:30rpx solid transparent;
+    border-right:30rpx solid transparent;
+    border-bottom:30rpx solid red;
+    transform:rotate(45deg);
+    position: absolute;
+    right:-22rpx;
+    top: -6rpx;
+    z-index: 50;
+}
+.ok{
+    width: 30rpx;
+    height: 36rpx;
+    display: block;
+    position: absolute;
+    right: -5rpx;
+    top: 6rpx;
+    overflow: hidden;
+}
+.ok_1{
+    width: 8rpx;
+    height: 2rpx;
+    background-color: #fff;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    left: 7rpx;
+    top: 6rpx;
+    transform:rotate(45deg);
+}
+.ok_2{
+    width: 21rpx;
+    height: 2rpx;
+    background-color: #fff;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    right: 0rpx;
+    top: 0rpx;
+    transform:rotate(-45deg);
+}
+.ok_on{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .title_right{
     width: 30%;
@@ -99,9 +149,11 @@ image{
     text-decoration:line-through;
 }
 .text_1{
-    font-size: 40rpx;
+    font-size: 30rpx;
     line-height: 40rpx;
-    padding-top: 20rpx;
+}
+.head_text .text_1 > text{
+    font-size: 20rpx;
 }
 .title_left .text_2{
     font-size: 20rpx;

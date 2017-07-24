@@ -16,7 +16,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+            // const ctx = wx.createCanvasContext("mycan");
+            // ctx.setFillStyle("#0000ff");
+            // ctx.setShadow(10,30,50,red);
+            // ctx.fillRect(10,10,150,75);
+            // ctx.draw();
   },
 //   点击事件
     click1: function (e) {

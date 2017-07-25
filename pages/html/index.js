@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-      _num1: "bc_ff",
+      _num1: "bc_red",
       _num2: "bc_ff",
       _num3: "bc_ff",
       _num4: "bc_ff",
